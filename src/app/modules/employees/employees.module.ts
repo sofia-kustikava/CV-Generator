@@ -1,18 +1,18 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { EmloyeeFormComponent } from './components/emloyee-form/emloyee-form.component';
-import { AddEmloyeePageComponent } from './pages/add-emloyee-page/add-emloyee-page.component';
-import { EditEmloyeePageComponent } from './pages/edit-emloyee-page/edit-emloyee-page.component';
-import { EmloyeePageComponent } from './pages/emloyee-page/emloyee-page.component';
+import { EmployeeFormComponent } from './components/employee-form/employee-form.component';
+import { AddEmployeePageComponent } from './pages/add-employee-page/add-employee-page.component';
+import { EditEmloyeePageComponent } from './pages/edit-employee-page/edit-emloyee-page.component';
+import { EmployeePageComponent } from './pages/employee-page/employee-page.component';
 
 
 
 @NgModule({
   declarations: [
-    EmloyeeFormComponent,
-    AddEmloyeePageComponent,
+    EmployeeFormComponent,
+    AddEmployeePageComponent,
     EditEmloyeePageComponent,
-    EmloyeePageComponent
+    EmployeePageComponent
   ],
   imports: [
     CommonModule

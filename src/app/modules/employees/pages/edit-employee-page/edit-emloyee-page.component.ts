@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-edit-emloyee-page',
+  selector: 'app-edit-employee-page',
   templateUrl: './edit-emloyee-page.component.html',
   styleUrls: ['./edit-emloyee-page.component.scss']
 })
